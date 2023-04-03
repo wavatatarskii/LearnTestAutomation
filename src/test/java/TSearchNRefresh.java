@@ -4,8 +4,9 @@ import org.testng.annotations.Test;
 
 import java.io.File;
 
-public class TSearchnRefresh {
+public class TSearchNRefresh {
 
+    @Test
     public void openAndRefresh(){
         File file = new File("src/test/resources/chromedriver.exe");
         System.setProperty("webdriver.chrome.driver", file.getAbsolutePath());
