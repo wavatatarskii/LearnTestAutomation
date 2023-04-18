@@ -13,7 +13,7 @@ import static org.testng.Assert.assertEquals;
 
 import org.assertj.core.api.Assertions;
 
-public class TSearchNRefresh extends TSearch{
+public class BaseCase extends TSearch{
     @Test
     /**
      * Main scenario block
